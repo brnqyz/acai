@@ -1,0 +1,82 @@
+body {
+    background-color: #3e0b57;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #b3ff00;
+    margin-top: 30px;
+  }
+  
+  h3 {
+    color: #e6caff;
+    margin-top: 30px;
+  }
+  
+  .tamanho {
+    background-color: #51156d;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  .preco {
+    font-size: 20px;
+    color: #b3ff00;
+    font-weight: bold;
+  }
+  
+  .adicionais ul {
+    columns: 2;
+    text-align: left;
+    color: white;
+  }
+
+  .imagens-acai {
+      width: 80px;
+      margin-bottom: 10px;
+  }
+
+  .tamanho-lado {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
+    justify-content: flex-start;
+  }
+  
+  .acai-img-lado {
+    width: 200px;
+    height: auto;
+  }
+  
+  .conteudo-lado {
+    flex: 1;
+  }
+  
